@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1092868142032",
+    "project_id": "shareminder-82340",
+    "storage_bucket": "shareminder-82340.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092868142032:android:b2f7bb9c8efce830683fd5",
+        "android_client_info": {
+          "package_name": "com.lairofdevs.shareminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092868142032-o0ktquq09v995012a4ro2a1dukf6gtkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lairofdevs.shareminder",
+            "certificate_hash": "ebd127004e14136fecc501d39322c640792d1e27"
+          }
+        },
+        {
+          "client_id": "1092868142032-i9qcp916327bmaprdu6atmqk7pbs08e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCu-WX_Fo-8uDv3HURGWo4VNNEcq39KQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092868142032-i9qcp916327bmaprdu6atmqk7pbs08e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
