@@ -4,7 +4,7 @@ description: Reminders re-imagined to be shared among friends, family and closed
 
 publish_to: 'none' 
 
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
