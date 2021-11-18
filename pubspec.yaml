@@ -48,8 +48,8 @@ flutter_icons:
   image_path: "assets/images/icon_dark.png"
 
 flutter_native_splash:
-  color: "#ffffff"
-  image: assets/images/icon_light.png
+  color: "#303030"
+  image: assets/images/icon_white.png
 
   
 

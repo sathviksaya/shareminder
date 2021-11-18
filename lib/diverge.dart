@@ -31,17 +31,18 @@ class _DivergeState extends State<Diverge> {
   Widget build(BuildContext context) {
     divergeScreen();
     return Scaffold(
-      body: Center(
+      backgroundColor: Colors.grey[700],   
+        body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/images/icon_light.png',
+              'assets/images/icon_white.png',
               height: 150,
             ),
             const SizedBox(height: 20),
             const SpinKitFadingCircle(
-              color: Colors.black54,
+              color: Colors.white38,
               size: 20,
             ),
           ],
