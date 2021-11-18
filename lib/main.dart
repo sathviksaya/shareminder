@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.grey,
-        // brightness: Brightness.dark,
+        brightness: Brightness.dark,
         inputDecorationTheme: const InputDecorationTheme(
           filled: true,
         ),

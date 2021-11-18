@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +17,6 @@ Future<void> signInWithGoogle(BuildContext context) async {
   try {
     googleUser = await GoogleSignIn().signIn();
   } catch (e) {
-    log(e.toString());
     Navigator.pop(context);
     return;
   }
@@ -53,10 +50,7 @@ Future<void> signInWithGoogle(BuildContext context) async {
 
     await fbase.collection('users').doc(Info.email).get().then((value) {
       if (value.exists) {
-        log('Old user');
         userExists = true;
-      } else {
-        log('New user');
       }
     });
 

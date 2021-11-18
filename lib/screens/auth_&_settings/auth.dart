@@ -24,13 +24,12 @@ class Auth extends StatelessWidget {
     );
   }
 
-  Widget signInButton(BuildContext context) => ElevatedButton.icon(
+  Widget signInButton(BuildContext context) => TextButton.icon(
         style: ElevatedButton.styleFrom(
           elevation: 24,
-          primary: Colors.white,
-          shadowColor: Colors.white38,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(50),
+            borderRadius: BorderRadius.circular(15),
+            side: const BorderSide(color: Colors.white),
           ),
           padding: const EdgeInsets.symmetric(
             horizontal: 25,
@@ -47,7 +46,7 @@ class Auth extends StatelessWidget {
         label: const Text(
           "SignIn With Google",
           style: TextStyle(
-            color: Colors.black87,
+            color: Colors.white,
           ),
         ),
       );
@@ -55,18 +54,19 @@ class Auth extends StatelessWidget {
   Widget heading() => Column(
         children: [
           Text(
-            'Welcome to',
-            style: GoogleFonts.roboto(
+            '_ Welcome to',
+            style: GoogleFonts.montserrat(
               fontSize: 20,
               fontWeight: FontWeight.w500,
-              color: Colors.black54,
+              color: Colors.white60,
             ),
           ),
           Text(
             'Shareminder',
-            style: GoogleFonts.roboto(
+            style: GoogleFonts.pacifico(
               fontSize: 36,
               fontWeight: FontWeight.w700,
+              color: Colors.white,
             ),
           ),
         ],
