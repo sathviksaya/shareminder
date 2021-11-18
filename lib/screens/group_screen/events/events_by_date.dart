@@ -51,7 +51,7 @@ class EventsByDate extends StatelessWidget {
             child: Text(
               'No events..',
               style: TextStyle(
-                color: Colors.black54,
+                color: Colors.white38,
                 fontSize: 14,
               ),
             ),

@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "1092868142032-pfpddcd8pt4t3isjbgkgjbvtl8i0npkf.apps.googleusercontent.com",
+          "client_id": "1092868142032-0n7tm24qpm95bjv5vk4rm3do88sjmg8i.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.lairofdevs.shareminder",
-            "certificate_hash": "ebd127004e14136fecc501d39322c640792d1e27"
+            "certificate_hash": "bc58d64ec0b51bb4e82c04c7be26ad2536043baf"
           }
         },
         {

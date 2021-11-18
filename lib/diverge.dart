@@ -31,7 +31,7 @@ class _DivergeState extends State<Diverge> {
   Widget build(BuildContext context) {
     divergeScreen();
     return Scaffold(
-      backgroundColor: Colors.grey[700],   
+      backgroundColor: Colors.grey[900],   
         body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
