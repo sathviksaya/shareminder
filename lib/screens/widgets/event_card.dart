@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:flutter/foundation.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
@@ -250,7 +249,7 @@ class EventCard extends StatelessWidget {
         // "anyoneCanAddSelf": jsonEncode(true),
       },
     );
-    
+
     // calendar.Event event = calendar.Event();
     // event.summary = eve.eventName;
     // event.description = eve.info.isEmpty ? 'No description' : eve.info;
@@ -269,7 +268,7 @@ class EventCard extends StatelessWidget {
     //       .then((AuthClient client) {
     //     var cal = calendar.CalendarApi(client);
     //     String calendarId = "primary";
-    //     print( 
+    //     print(
     //       'lallala'  +client.toString());
     //     cal.events.insert(event, calendarId).then((value) {
     //       print("ADDEDDD_________________${value.status}");
