@@ -32,19 +32,22 @@ class _DisplayGroupsState extends State<DisplayGroups> {
                     controller: _searchController,
                     hint: "Search groups...",
                     radius: 50,
-                    onChanged: (value) {
+                    onChanged: (String? val) {
                       setState(() {});
                     },
+                    borderColor: Colors.white38,
+                    fillColor: Colors.grey[700],
                   ),
                 ),
                 if (_searchController.text.isNotEmpty)
                   IconButton(
                     onPressed: () {
                       _searchController.clear();
+                      setState(() {});
                     },
                     icon: const Icon(
                       Icons.close,
-                      color: Colors.black,
+                      color: Colors.white38,
                     ),
                   ),
               ],
@@ -80,7 +83,7 @@ Widget showGroups(String groupName) => Expanded(
             return const Center(
               child: SpinKitFadingCircle(
                 size: 20,
-                color: Colors.black54,
+                color: Colors.white38,
               ),
             );
           }
@@ -89,7 +92,7 @@ Widget showGroups(String groupName) => Expanded(
               child: Text(
                 'No groups to show..',
                 style: TextStyle(
-                  color: Colors.black54,
+                  color: Colors.white38,
                   fontSize: 14,
                 ),
               ),

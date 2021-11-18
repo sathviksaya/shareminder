@@ -10,6 +10,8 @@ class MyTextField extends StatelessWidget {
   final String? initVal;
   final int minLines;
   final bool? obscureText;
+  final Color borderColor;
+  final Color? fillColor;
   final Function(String? val)? onChanged;
   const MyTextField({
     Key? key,
@@ -22,7 +24,9 @@ class MyTextField extends StatelessWidget {
     this.obscureText,
     this.onChanged,
     this.inputType,
-    this.minLines = 1,
+    this.minLines = 1, 
+    this.borderColor = Colors.transparent,
+    this.fillColor,
   }) : super(key: key);
 
   @override
@@ -32,12 +36,12 @@ class MyTextField extends StatelessWidget {
       textCapitalization: TextCapitalization.sentences,
       keyboardType: inputType,
       textInputAction: TextInputAction.next,
-      cursorColor: Colors.black54,
+      cursorColor: Colors.white60,
       onChanged: onChanged,
       maxLines: maxLines,
       minLines: minLines,
       initialValue: initVal,
-      style: const TextStyle(color: Colors.black87),
+      style: const TextStyle(color: Colors.white),
       decoration: InputDecoration(
         hintText: hint,
         hintStyle: const TextStyle(
@@ -53,7 +57,7 @@ class MyTextField extends StatelessWidget {
           borderSide: BorderSide.none,
           borderRadius: BorderRadius.circular(radius),
         ),
-        fillColor: Colors.grey[200],
+        fillColor: fillColor,
         enabled: true,
       ),
     );

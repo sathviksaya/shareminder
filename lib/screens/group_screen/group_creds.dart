@@ -29,7 +29,7 @@ class GroupCreds extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const DialogHead(heading: 'Group credentials'),
+              const DialogHead(heading: 'Credentials'),
               const SizedBox(
                 height: 20,
               ),
@@ -72,7 +72,7 @@ class GroupCreds extends StatelessWidget {
             },
             icon: const Icon(
               Icons.copy,
-              color: Colors.black54,
+              color: Colors.white38,
             ),
           ),
         ],
@@ -85,7 +85,7 @@ class GroupCreds extends StatelessWidget {
           label,
           style: GoogleFonts.roboto(
             fontSize: 13,
-            color: Colors.black54,
+            color: Colors.white38,
             fontWeight: FontWeight.w500,
           ),
         ),

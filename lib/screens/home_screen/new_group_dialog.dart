@@ -47,7 +47,7 @@ class NewGroupDialog extends StatelessWidget {
                   Container(
                     width: 1,
                     height: 100,
-                    color: Colors.black26,
+                    color: Colors.white,
                   ),
                   optionButton(
                     context,
@@ -95,7 +95,7 @@ Widget optionButton(
           children: [
             Icon(
               icon,
-              color: Colors.black,
+              color: Colors.white,
               size: 50,
             ),
             const SizedBox(
@@ -105,7 +105,7 @@ Widget optionButton(
               name,
               style: GoogleFonts.roboto(
                 fontWeight: FontWeight.w500,
-                color: Colors.black,
+                color: Colors.white,
               ),
             ),
           ],

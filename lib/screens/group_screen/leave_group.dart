@@ -65,7 +65,7 @@ class LeaveGroup extends StatelessWidget {
             'Are you sure you want to leave the group',
             style: TextStyle(
               fontSize: 14,
-              color: Colors.black54,
+              color: Colors.white38,
             ),
           ),
           const SizedBox(

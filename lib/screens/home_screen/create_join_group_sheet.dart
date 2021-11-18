@@ -78,7 +78,7 @@ class GroupDialog extends StatelessWidget {
             child: Text(
               label,
               style: GoogleFonts.roboto(
-                color: Colors.black54,
+                color: Colors.white,
                 fontWeight: FontWeight.normal,
                 fontSize: 12,
               ),

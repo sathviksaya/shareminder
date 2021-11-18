@@ -91,7 +91,7 @@ class MemberCard extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontSize: 12,
                   fontWeight: FontWeight.w400,
-                  color: Colors.black54,
+                  color: Colors.white38,
                 ),
               ),
             ),
@@ -105,13 +105,13 @@ class MemberCard extends StatelessWidget {
           vertical: 2,
         ),
         decoration: BoxDecoration(
-          color: Colors.green[100],
           borderRadius: BorderRadius.circular(10),
+          border: Border.all(color: Colors.greenAccent),
         ),
         child: Text(
           "Admin",
           style: GoogleFonts.roboto(
-            color: Colors.green,
+            color: Colors.greenAccent,
             fontSize: 10,
             fontWeight: FontWeight.w300,
           ),

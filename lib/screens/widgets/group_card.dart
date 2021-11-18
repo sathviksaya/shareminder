@@ -20,14 +20,14 @@ class GroupCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String eventsToday;
-    if (eventsNumber == 0) {
-      eventsToday = "No events for today..";
-    } else if (eventsNumber == 1) {
-      eventsToday = "$eventsNumber Event for today..";
-    } else {
-      eventsToday = "$eventsNumber Events for today..";
-    }
+    // String eventsToday;
+    // if (eventsNumber == 0) {
+    //   eventsToday = "No events for today..";
+    // } else if (eventsNumber == 1) {
+    //   eventsToday = "$eventsNumber Event for today..";
+    // } else {
+    //   eventsToday = "$eventsNumber Events for today..";
+    // }
 
     return GestureDetector(
       onTap: () {
@@ -42,7 +42,6 @@ class GroupCard extends StatelessWidget {
       },
       child: Card(
         elevation: 20,
-        shadowColor: Colors.white38,
         margin: const EdgeInsets.symmetric(
           horizontal: 10,
           vertical: 5,
@@ -80,28 +79,29 @@ class GroupCard extends StatelessWidget {
                       style: GoogleFonts.roboto(
                         fontSize: 12,
                         fontWeight: FontWeight.w300,
+                        color: Colors.white38,
                       ),
                     ),
                   ),
                 ],
               ),
               const SizedBox(
-                height: 5,
+                height: 10,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Text(
-                    eventsToday,
-                    style: GoogleFonts.roboto(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                      color:
-                          eventsNumber == 0 ? Colors.grey : Colors.amber,
-                    ),
-                  ),
-                ],
-              ),
+              // Row(
+              //   mainAxisAlignment: MainAxisAlignment.end,
+              //   children: [
+              //     Text(
+              //       eventsToday,
+              //       style: GoogleFonts.roboto(
+              //         fontSize: 12,
+              //         fontWeight: FontWeight.w600,
+              //         color:
+              //             eventsNumber == 0 ? Colors.grey : Colors.amber,
+              //       ),
+              //     ),
+              //   ],
+              // ),
             ],
           ),
         ),

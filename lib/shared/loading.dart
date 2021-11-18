@@ -16,7 +16,7 @@ void loading(BuildContext context) {
             height: 70,
             width: 100,
             child: SpinKitFadingCircle(
-              color: Colors.black54,
+              color: Colors.white38,
               size: 20,
             ),
           ),

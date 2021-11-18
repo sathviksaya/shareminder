@@ -46,7 +46,7 @@ class Settings extends StatelessWidget {
             style: GoogleFonts.roboto(
               fontWeight: FontWeight.normal,
               fontSize: 15,
-              color: Colors.black54,
+              color: Colors.white38,
             ),
           ),
         ],
@@ -85,7 +85,7 @@ class Settings extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: IconButton(
-              color: Colors.black87,
+              color: Colors.white,
               icon: const Icon(Icons.arrow_back_ios),
               onPressed: () {
                 Navigator.pop(context);
@@ -98,11 +98,11 @@ class Settings extends StatelessWidget {
   Widget creaters() => Padding(
         padding: const EdgeInsets.all(10),
         child: Text(
-          'Created by Supreet & Sathvik',
+          'About developers',
           style: GoogleFonts.roboto(
             fontWeight: FontWeight.normal,
             fontSize: 12,
-            color: Colors.black38,
+            color: Colors.white38,
           ),
         ),
       );

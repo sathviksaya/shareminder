@@ -42,7 +42,7 @@ class EventsByDate extends StatelessWidget {
           return const Center(
             child: SpinKitFadingCircle(
               size: 20,
-              color: Colors.black54,
+              color: Colors.white38,
             ),
           );
         }

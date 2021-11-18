@@ -83,7 +83,7 @@ class ConfirmOverwrite extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 14,
-              color: Colors.black54,
+              color: Colors.white38,
             ),
           ),
           const SizedBox(

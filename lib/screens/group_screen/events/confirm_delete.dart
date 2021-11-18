@@ -71,7 +71,7 @@ class ConfirmDeleteEvent extends StatelessWidget {
             'Are you sure you want to delete the event',
             style: TextStyle(
               fontSize: 14,
-              color: Colors.black54,
+              color: Colors.white38,
             ),
           ),
           const SizedBox(

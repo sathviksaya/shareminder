@@ -33,7 +33,7 @@ class Home extends StatelessWidget {
           title: Text(
             'Shareminder',
             style: GoogleFonts.roboto(
-              color: Colors.black87,
+              color: Colors.white,
               fontSize: 24,
               fontWeight: FontWeight.bold,
             ),
@@ -71,11 +71,11 @@ class Home extends StatelessWidget {
   Map<String, List> homeMenuIcons = {
     'New group': [
       Icons.add,
-      Colors.black87,
+      Colors.white,
     ],
     'Settings': [
       Icons.settings,
-      Colors.black87,
+      Colors.white,
     ],
   };
 }

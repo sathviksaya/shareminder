@@ -12,8 +12,6 @@ import '/screens/widgets/dropdown_list.dart';
 import '/utils/show_msg.dart';
 import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
-// import "package:googleapis_auth/auth_io.dart";
-// import 'package:googleapis/calendar/v3.dart' as calendar;
 
 class EventCard extends StatelessWidget {
   final String groupRef;
@@ -104,7 +102,6 @@ class EventCard extends StatelessWidget {
 
     return Card(
       elevation: 20,
-      shadowColor: Colors.white38,
       margin: const EdgeInsets.symmetric(
         horizontal: 10,
         vertical: 5,
@@ -151,7 +148,7 @@ class EventCard extends StatelessWidget {
                       style: GoogleFonts.roboto(
                         fontSize: 12,
                         fontWeight: FontWeight.w400,
-                        color: Colors.black54,
+                        color: Colors.white38,
                       ),
                     ),
                   ],
@@ -303,15 +300,15 @@ List<String> eventMenu = [
 Map<String, List> eventMenuIcons = {
   'Edit': [
     Icons.edit,
-    Colors.black87,
+    Colors.white,
   ],
   'Copy event': [
     Icons.content_copy,
-    Colors.black87,
+    Colors.white,
   ],
   'Add to Calendar': [
     Icons.calendar_today,
-    Colors.black87,
+    Colors.white,
   ],
   'Delete event': [
     Icons.delete,

@@ -17,12 +17,12 @@ class FilterMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return PopupMenuButton<String>(
       // enableFeedback: true,
-      color: Colors.white,
+      color: Colors.grey[700],
       elevation: 20,
       tooltip: 'Options',
       icon: Icon(
         icon,
-        color: Colors.black87,
+        color: Colors.white,
       ),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10),

@@ -81,7 +81,7 @@ class GroupScreen extends StatelessWidget {
             Text(
               groupName,
               style: GoogleFonts.roboto(
-                color: Colors.black87,
+                color: Colors.white,
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
@@ -111,7 +111,7 @@ class GroupScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 20),
             child: IconButton(
-              color: Colors.black87,
+              color: Colors.white,
               icon: const Icon(Icons.arrow_back_ios),
               onPressed: () {
                 Navigator.pop(context);
@@ -157,15 +157,15 @@ class GroupScreen extends StatelessWidget {
   Map<String, List> groupMenuIcons = {
     'Members': [
       Icons.group,
-      Colors.black87,
+      Colors.white,
     ],
     'Group Creds': [
       Icons.info,
-      Colors.black87,
+      Colors.white,
     ],
     'Mute Events': [
       Icons.volume_off,
-      Colors.black87,
+      Colors.white,
     ],
     'Leave Group': [
       Icons.exit_to_app,

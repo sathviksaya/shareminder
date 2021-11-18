@@ -136,7 +136,7 @@ class _AddEditEventState extends State<AddEditEvent> {
             child: Text(
               label,
               style: GoogleFonts.roboto(
-                color: Colors.black54,
+                color: Colors.white38,
                 fontWeight: FontWeight.normal,
                 fontSize: 12,
               ),
@@ -217,7 +217,7 @@ class _AddEditEventState extends State<AddEditEvent> {
             child: Text(
               "Date & Time",
               style: GoogleFonts.roboto(
-                color: Colors.black54,
+                color: Colors.white38,
                 fontWeight: FontWeight.normal,
                 fontSize: 12,
               ),
@@ -227,7 +227,7 @@ class _AddEditEventState extends State<AddEditEvent> {
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
-              color: Colors.grey[200],
+              color: Colors.grey[700],
             ),
             padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 0),
             child: Center(
