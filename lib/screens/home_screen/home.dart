@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:shareminder/screens/home_screen/home_tab_view.dart';
 import '/screens/auth_&_settings/settings_screen.dart';
 import '/screens/home_screen/new_group_dialog.dart';
 import '/screens/widgets/dropdown_list.dart';
 import '/utils/page_surf.dart';
-
-import 'display_groups.dart';
 
 // ignore: must_be_immutable
 class Home extends StatelessWidget {
@@ -40,7 +39,7 @@ class Home extends StatelessWidget {
           ),
           actions: homeOption(context),
         ),
-        body: const DisplayGroups(),
+        body: const HomeTabView(),
       ),
     );
   }

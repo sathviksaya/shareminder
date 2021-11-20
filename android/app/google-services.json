@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "1092868142032-bt13vpir9dmpnog316s36rccf7pdsd02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lairofdevs.shareminder",
+            "certificate_hash": "ebd127004e14136fecc501d39322c640792d1e27"
+          }
+        },
+        {
           "client_id": "1092868142032-i9qcp916327bmaprdu6atmqk7pbs08e1.apps.googleusercontent.com",
           "client_type": 3
         }

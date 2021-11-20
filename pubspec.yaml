@@ -34,6 +34,7 @@ dependencies:
   date_field: ^2.0.1
   expansion_tile_card: ^2.0.0
   http: ^0.13.3
+  flutter_calendar_carousel: ^2.1.0
 
 dev_dependencies:
   flutter_test:
